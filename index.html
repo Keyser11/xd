@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POR DEFINIR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1 id="Saludo"> Hola Bienvenid@ </h1>
+            <h2> 😊 </h2>
+            <img class="Imagen" src="Astronauta saludo.svg" alt="">
+            <h2>Te gustaria saber de mi?</h2>
+            
+        <div class="options">
+            <button id="btn" class="BtnSi" onclick="redirectToPage()"> Si </button>
+            <button id="btn" class="BtnNo" onclick="redirectToPage2()"> No </button>
+        </div>
+
+        <audio id="musica" src="GoGoGo.mp3" loop>
+            
+            <source src="GoGoGo.mp3" type="">
+                
+        <audio>
+
+        <audio id="audio2" src="ahh.mp3">
+            
+            <source src="ahh.mp3" type=""></audio>
+                
+                
+            
+            
+        
+        <script>
+            function redirectToPage() {
+                
+                var music = document.getElementById("musica");
+                music.play();
+                window.location.href = "index2.html";
+            }
+
+            function redirectToPage2() {
+                var music = document.getElementById("audio2");
+                music.play();
+                window.location.href = "index4.html";
+            }
+                
+            
+        </script>
+
+        </div>
+    </main>
+    
+    <script type="module" src="scrip.js"></script>
+</body>
+</html>
+

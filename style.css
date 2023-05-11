@@ -1,0 +1,176 @@
+*{
+  margin: 0;
+  padding: 0;  
+}
+
+@font-face {
+    font-family: ComicNeue;
+    src: url(ComicNeue-Bold.ttf);
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    font-family: 'ComicNeue';
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Imagen {
+    width: 300px;
+    height: 300px;
+
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+.options {
+    display: flex;
+    justify-content:space-around;
+    
+}
+.BtnSi {
+    width: 110px;
+    height: 40px;
+    background-color: rgb(169, 171, 173);
+    border-radius: 10px;
+    color:black;
+    font-weight:200;
+    border: 2px solid rgb(0, 0, 0);
+    transform: translate(0%, 30%);
+    font-family: ComicNeue;
+}
+
+.BtnSi:hover {
+    background-color: aqua;
+}
+
+.BtnNo {
+    width: 110px;
+    height: 40px;
+    background-color: rgb(169, 171, 173);
+    border-radius: 10px;
+    color:black;
+    font-weight:200;
+    border: 2px solid rgb(0, 0, 0);
+    transform: translate(10%, 30%);
+    font-family: ComicNeue;
+}
+
+.BtnNo:hover {
+    background-color: tomato;
+}
+
+
+.container2 {
+    background-color: rgb(255, 255, 255);
+    font-family: 'ComicNeue';
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.Imagen2 {
+    width: 300px;
+    height: 300px;
+}
+
+#Btn-Comenzar {
+    display: none;
+    width: 110px;
+    height: 40px;
+    background-color: rgb(96, 172, 248);
+    border-radius: 10px;
+    color:black;
+    font-weight:200;
+    border: 2px solid rgb(0, 0, 0);
+    font-family: ComicNeue;
+    transform: translate(10%, 100%);
+}
+
+.container3 {
+    background-color: rgb(255, 255, 255);
+    font-family: 'ComicNeue';
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.container4{
+    background-color: rgb(255, 255, 255);
+    font-family: 'ComicNeue';
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.Imagen4 {
+    width: 300px;
+    height: 300px;
+}
+
+.Texto {
+
+    font-size: 1.5em;
+
+}
+
+
+
+@keyframes loading {
+    0%{
+        width: 0%;
+        background-color: aqua;
+    }
+    30%{
+        background-color: aqua;
+    }
+    100%{
+        background-color: rgb(129, 75, 255);
+
+    }
+
+}
+
+.box{
+    width: 130px;
+    height: 20px;
+    border: 3px solid black;
+    border-radius: 7px;
+
+}
+.box-loading {
+    height: 20px;
+    width: 100%;
+    border-radius: 3px;
+    animation: loading 4s;
+    background-color: rgb(129, 75, 255);
+    
+}
+  
